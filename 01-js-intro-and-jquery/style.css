@@ -1,0 +1,15 @@
+* {
+	text-align: center;
+}
+
+.div-inline{
+	display: inline-block;
+}
+
+.highlight{
+	font-weight: bold;
+}
+
+.error {
+	color: #A80000;
+}
