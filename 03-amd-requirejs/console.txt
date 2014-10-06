@@ -1,0 +1,11 @@
+//Sentencias para la consola (punto 6 del topic)
+
+require(["jquery-private" ,"director"]);
+var movie = require('movie');
+var director = require('director');
+var $ = require('jquery-private');
+var alien = new movie();
+var ridleyScott = new director('Ridley Scott');
+ridleyScott.set('quotes',['Cast is everything','Do what ...']);
+alien.set('director', ridleyScott);
+$('body').append(alien.get('director').speak());
